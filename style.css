@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: bisque;
+}
+
+.menu {
+    justify-content: flex-end;
+    background-color: aquamarine;
+}
