@@ -1,18 +1,43 @@
 .header {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     background-color: #1F2937;
     gap: 1rem;
     justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 1rem;
+
 }
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     gap: 5rem;
-
     font-size: 20px;
 }
 .title {
     background-color: #1F2937;
     color: white;
+}
+body{
+    margin:0px
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap:30rem;
+}
+.title-2{
+    font-size: 17px;
+    color: white;
+}
+.button{
+    display: flex;
+    font-size: 15px;
+    width: fit-content;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
 }
