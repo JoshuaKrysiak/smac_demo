@@ -7,6 +7,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     padding-top: 1rem;
+    padding-bottom: 5rem;
 
 }
 .menu {
@@ -18,6 +19,7 @@
     font-size: 20px;
 }
 .title {
+    display: flex;
     background-color: #1F2937;
     color: white;
 }
@@ -30,6 +32,7 @@ body{
     gap:30rem;
 }
 .title-2{
+    display: flex;
     font-size: 17px;
     color: white;
 }
@@ -40,4 +43,18 @@ body{
     color: white;
     background-color: blue;
     border-radius: 5px;
+}
+.ice{
+    display: flex;
+}
+.flexrowtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.plzwrk{
+    display: flex;
+    justify-content: space-between;
 }
